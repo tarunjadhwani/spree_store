@@ -1,0 +1,1 @@
+An eCommerce web app build using Rails 3.2.13, Spree 2.0 and Spree fancy theme.
