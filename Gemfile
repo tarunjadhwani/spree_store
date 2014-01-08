@@ -20,6 +20,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :deployment do
+	gem 'pg'
+end
+
 gem 'jquery-rails'
 gem 'spree', '2.0'
 gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-0-stable'
