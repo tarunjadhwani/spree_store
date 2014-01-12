@@ -26,7 +26,8 @@ group :production do
 end
 
 gem 'jquery-rails'
-gem 'spree', '2.0'
+gem 'spree', '~>2.0.2'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
 gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-0-stable'
 
 # To use ActiveModel has_secure_password
